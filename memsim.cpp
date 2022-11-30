@@ -10,7 +10,7 @@
 #include <iostream>
 
 // I recommend you implement the simulator as a class. This is only a suggestion.
-// If you decide not to use this class, please remove it before submitting it.
+// If you decide not to use this class, feel free to remove it.
 struct Simulator {
   Simulator(int64_t page_size)
   {
@@ -50,13 +50,15 @@ struct Simulator {
   }
   void check_consistency()
   {
-    // you do not need to implement this method at all - this is just my suggestion
-    // to help you with debugging
-
     // mem_sim() calls this after every request to make sure all data structures
     // are consistent. Since this will probablly slow down your code, you should
-    // disable calling this in the mem_sim() function below before submitting
-    // your code for grading.
+    // disable comment out the call below before submitting your code for grading.
+    check_consistency_internal();
+  }
+  void check_consistency_internal()
+  {
+    // you do not need to implement this method at all - this is just my suggestion
+    // to help you with debugging
 
     // here are some suggestions for consistency checks (see appendix also):
 
@@ -86,9 +88,8 @@ struct Simulator {
 //    some statistics at the end of simulation
 MemSimResult mem_sim(int64_t page_size, const std::vector<Request> & requests)
 {
-  // if you decide to use the simulator class, you probably do not need to make
-  // any changes to the code below, except to uncomment the call to check_consistency()
-  // before submitting your code
+  // if you decide to use the simulator class above, you probably do not need
+  // to modify below at all
   Simulator sim(page_size);
   for (const auto & req : requests) {
     if (req.tag < 0) {
