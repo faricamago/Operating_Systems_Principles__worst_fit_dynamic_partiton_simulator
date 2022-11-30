@@ -5,11 +5,10 @@ Do not upload any files in this repository to public websites. If you clone this
 
 This is the starter code for Assignment 6.
 
-Make sure you also make your own test files.
-
 ---
 # Sample results:
-The results below were obtained using an O(n log n) algorithm.
+The results below were obtained using an O(n log n) algorithm. Do not forget to design your own test files.
+
 ```
 $ ./memsim 123 < test1.txt
 pages requested:                58
