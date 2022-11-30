@@ -22,8 +22,8 @@ struct MemSimResult {
   // if no free partitions exist, set this to "0"
   int64_t max_free_partition_size;
   // address of the largest free partition at the end of simulation
-  // if not free partitions exist, set this to "0"
-  // in case of ties for size, return the smallest address
+  // if no free partitions exist, set this to "0"
+  // in case of ties for maximum size, return the smallest address
   int64_t max_free_partition_address;
 };
 
