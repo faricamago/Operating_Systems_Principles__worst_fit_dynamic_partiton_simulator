@@ -1,5 +1,5 @@
 # WARNING
-Do not upload any files in this repository to public websites. If you clone this repository, please make sure to keep it private.
+Do not upload any files in this repository to public websites. If you clone this repository, keep it private.
 
 # memsim
 
@@ -9,6 +9,7 @@ Make sure you also make your own test files.
 
 ---
 # Sample results:
+The results below were obtained using an O(n log n) algorithm.
 ```
 $ ./memsim 123 < test1.txt
 pages requested:                58
