@@ -1,0 +1,341 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jun 18 17:39:24 2022
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+LMOD_SETTARG_FULL_SUPPORT = no
+# environment
+VSCODE_CWD = /home/profs/pfederl
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+FPATH = /usr/share/lmod/lmod/init/ksh_funcs
+# environment
+LMOD_ROOT = /usr/share/lmod
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+endef
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/profs/pfederl/teaching/cpsc457-p21/a5/memsim
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = csx1.cs.ucalgary.ca
+# environment
+MAIL = /var/spool/mail/pfederl
+# environment
+XDG_DATA_DIRS = /home/profs/pfederl/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+GUESTFISH_OUTPUT = \e[0m
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LMOD_CMD = /usr/share/lmod/lmod/libexec/lmod
+# environment
+GUESTFISH_INIT = \e[1;34m
+# makefile
+MAKEFLAGS = pqrR
+# environment
+GIT_EDITOR = emacs -nw
+# makefile
+CURDIR := /home/profs/pfederl/teaching/cpsc457-p21/a5/memsim
+# environment
+define BASH_FUNC_module%%
+() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+endef
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LMOD_DIR = /usr/share/lmod/lmod/libexec
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 1000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /usr/share/lmod/lmod/share/man:
+# environment
+MODULEPATH = /etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/103517/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+define BASH_FUNC_ml%%
+() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+endef
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/profs/pfederl/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/home/profs/pfederl/.local/bin:/home/profs/pfederl/.local/bin:/usr/share/ucalgary/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+# default
+MAKEFILES := 
+# environment
+MODULESHOME = /usr/share/lmod/lmod
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LMOD_sys = Linux
+# environment
+SSH_CLIENT = 70.77.210.120 62483 22
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+GUESTFISH_PS1 = \[\e[1;32m\]><fs>\[\e[0;31m\] 
+# environment
+__LMOD_SET_FPATH = 1
+# environment
+KDEDIRS = /usr
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /home/profs/pfederl/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/helpers/browser.sh
+# environment
+LOGNAME = pfederl
+# environment
+BASH_ENV = /usr/share/lmod/lmod/init/bash
+# makefile
+.DEFAULT_GOAL := all
+# environment
+MODULEPATH_ROOT = /usr/share/modulefiles
+# environment
+HISTCONTROL = ignoredups
+# environment
+USER = pfederl
+# default
+MAKE_VERSION := 4.3
+# environment
+which_declare = declare -f
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+CVS_RSH = ssh
+# environment
+VSCODE_AGENT_FOLDER = /home/profs/pfederl/.vscode-server
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/103517
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/103517/vscode-ipc-61099cd0-55e7-4d18-b698-e14d8252c67f.sock
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/profs/pfederl
+# environment
+XDG_SESSION_ID = 26797
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+GUESTFISH_RESTORE = \e[0m
+# environment
+LMOD_PKG = /usr/share/lmod/lmod
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+LMOD_VERSION = 8.4.23
+# environment
+SSH_CONNECTION = 70.77.210.120 62483 136.159.5.26 22
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=4/130=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 50, inode 66732044): 23 files, no impossibilities.
+
+# 23 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+memsim.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:37:30.444587415
+#  File has been updated.
+#  Successfully updated.
+
+memsim: memsim.cpp Makefile main.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-06-13 00:41:53.966862095
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := memsim
+# automatic
+# * := 
+# automatic
+# < := memsim.cpp
+# automatic
+# + := memsim.cpp Makefile main.cpp
+# automatic
+# % := 
+# automatic
+# ^ := memsim.cpp Makefile main.cpp
+# automatic
+# ? := memsim.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 7):
+	g++ -O2 -Wall memsim.cpp main.cpp -o memsim
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:13:18.295481781
+#  File has been updated.
+#  Successfully updated.
+
+memsim.cpp: memsim.h
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:44:58.671362263
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	/bin/rm -f *~ memsim
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+all: memsim
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+main.cpp: memsim.h
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:40:10.625225086
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 30 / storage = 289 B / avg = 9 B
+# current buf: size = 8162 B / used = 289 B / count = 30 / avg = 9 B
+
+# strcache performance: lookups = 52 / hit rate = 42%
+# hash-table stats:
+# Load=30/8192=0%, Rehash=0, Collisions=0/52=0%
+# Finished Make data base on Sat Jun 18 17:39:24 2022
+
+ 
