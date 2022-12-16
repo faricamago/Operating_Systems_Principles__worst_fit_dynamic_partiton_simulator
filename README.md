@@ -1,11 +1,3 @@
-# WARNING
-Do not upload any files in this repository to public websites. If you clone this repository, keep it private.
-
-# memsim
-
-This is the starter code for Assignment 6.
-
----
 # Sample results:
 The results below were obtained using an O(n log n) algorithm. Do not forget to design your own test files.
 
